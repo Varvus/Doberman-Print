@@ -11,8 +11,7 @@
         <style>@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');</style>
         <style>@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Zen+Antique&display=swap');</style>
 
-        <!-- <link rel="icon" href="imagenes/favicon/favicon.ico" type="image/x-icon"/>
-        <link rel="shortcut icon" href="imagenes/favicon/favicon.ico" type="image/x-icon"/> -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
         <link rel="icon" type="image/png" href="imagenes/ICONO-BLANCO.png"/>
         <link rel="icon" type="image/png" href="imagenes/ICONO-BLANCO.png"/>
@@ -20,9 +19,9 @@
     </head>
     <body>
 
-          <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top shadow">
             <div class="container ">
-              <a class="navbar-brand" href="#" class="">
+              <a class="navbar-brand" href="#inicio" class="">
                   <img src="/imagenes/ICONO-BLANCO.svg" class="d-flex justify-content-center align-items-center" width=13px;>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,34 +30,15 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Clientes
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
-        </nav>    -->
+        </nav>   
 
-        <div style="position:relative;">
+        <div id="inicio">
             <div class="bg container-fluid d-flex justify-content-center align-items-center"></div>
-
-            <!-- <div class="container logo d-flex justify-content-center align-items-center rounded shadow-lg"></div> -->
-
             <div class="logo2 text-center">
                 <img src="imagenes/LOGO-COLOR-1.svg" style="height:50vh;">
                 <br><br>
@@ -67,9 +47,86 @@
             </div>  
         </div>
 
-        <!-- <div class="container" style="height:100vh;">
-          Contacto
-        </div> -->
+        <div id="contacto" class="container d-flex justify-content-center align-items-center" style="min-height:calc(100vh - 56px);">
+          <div class="text-center">
+            <br>
+            <h2><img src="imagenes/correo-de-contacto.png" width=25> <span style="vertical-align:middle;">Contacto</span></h2>
+
+            <br>
+
+            <div class="row">
+              <div class="col-12 col-md-7 m-0 p-0">
+                <form style="background-color:#eee;" class="p-4">
+                  <h5><b>Escríbenos</b></h5>
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Teléfono</label>
+                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">No compartimos tus datos con nadie.</div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" style="height: 210px;" id="exampleFormControlTextarea1" required></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
+                  
+                </form>
+              </div>
+              <div class="col-12 col-md-5 m-0 p-0">
+                <div class="container p-4 d-flex align-items-center justify-content-center" style="background-color:#01aeee; min-height:100%">
+                  <div>
+                    <h5 style="color:white;"><b>Informacón de Contacto</b></h5>
+      
+                    <p style="color:white;">Doberman Print</p>
+                    <p style="color:white;">Tel:81-36-74-53-17 / Whatssap:811-015-79-98</p>
+                    <p style="color:white;">Correo: dobermanprint@gmail.com</p>
+                    <p style="color:white;">Facebook: @Dobermanprint</p>
+                    <p style="color:white;">
+                      Direccion: Ignacio Allende 407, <br>
+                      Apodaca Centro 66600, 66614.<br>
+                      Cd Apodaca N.L.
+                    </p>
+                  </div>
+    
+                </div>
+              </div>
+              <div class="col-12 m-0 p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.693374185397!2d-100.18814294950728!3d25.780689614026244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662ec0975815ef7%3A0xc578062ac256a362!2sIgnacio%20Allende%20407%2C%20Cabecera%20Municipal%20(Apodaca)%2C%20Apodaca%20Centro%2C%2066600%20Cd%20Apodaca%2C%20N.L.!5e0!3m2!1ses!2smx!4v1635995199282!5m2!1ses!2smx" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+  
+              </div>
+            </div>
+
+            
+
+            
+
+            <br>
+
+            
+
+            <br>
+
+            
+          </div>
+        </div> 
+
+        <br>
+
+        <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/cuputo" title="Cuputo">Cuputo</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 
     </body> 
 </html>
