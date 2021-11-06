@@ -6,35 +6,35 @@
     $subject = "Contacto desde la Página Web";
     
     $message = "
-<html>
-<head>
-<title>HTML email</title>
-</head>
+                <html>
+                <head>
+                <title>HTML email</title>
+                </head>
 
-<body>
+                <body>
 
-    <table>
-        <tr>
-            <th>Nombre</th>
-            <th>Correo</th>
-            <th>Teléfono</th>
-        </tr>
-        <tr>
-            <td>" . $_POST["wk_nombre"] . "</td>
-            <td>" . $_POST["wk_correo"] . "</td>
-            <td>" . $_POST["wk_telefono"] . "</td>
-        </tr>
-        <tr>
-            <th colspan=4>Mensaje</th>
-        </tr>
-        <tr>
-            <td colspan=4>" . $_POST["wk_mensaje"] . "</td>
-        </tr>
-    </table>
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Teléfono</th>
+                        </tr>
+                        <tr>
+                            <td>" . $_POST["wk_nombre"] . "</td>
+                            <td>" . $_POST["wk_correo"] . "</td>
+                            <td>" . $_POST["wk_telefono"] . "</td>
+                        </tr>
+                        <tr>
+                            <th colspan=4>Mensaje</th>
+                        </tr>
+                        <tr>
+                            <td colspan=4>" . $_POST["wk_mensaje"] . "</td>
+                        </tr>
+                    </table>
 
-</body>
+                </body>
 
-</html>";
+                </html>";
 
     if ($_POST["wk_nombre"] <> "" && 
         $_POST["wk_correo"] <> "" && 
