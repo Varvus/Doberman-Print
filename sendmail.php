@@ -9,22 +9,47 @@
                 <html>
                 <head>
                 <title>HTML email</title>
+
+                #customers {
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                  }
+                  
+                  #customers td, #customers th {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                  }
+                  
+                  #customers tr:nth-child(even){background-color: #black;}
+                  
+                  #customers tr:hover {background-color: #ddd;}
+                  
+                  #customers th {
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    text-align: left;
+                    background-color: #04AA6D;
+                    color: white;
+                  }
+                  </style>
+
                 </head>
 
                 <body>
 
-                    <table width="100%" cellspacing=1>
-                        <tr bgcolor="black">
+                    <table id='customers' width='100%' cellspacing=1>
+                        <tr bgcolor='black'>
                             <th><center>Nombre</th>
                             <th><center>Correo</center></th>
                             <th><center>Teléfono</th>
                         </tr>
-                        <tr bgcolor="#eee">
+                        <tr bgcolor='#eee'>
                             <td>" . $_POST["wk_nombre"] . "</td>
                             <td>" . $_POST["wk_correo"] . "</td>
                             <td>" . $_POST["wk_telefono"] . "</td>
                         </tr>
-                        <tr bgcolor="black">
+                        <tr bgcolor='black'>
                             <th colspan=4>Mensaje</th>
                         </tr>
                         <tr>
