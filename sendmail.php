@@ -2,7 +2,7 @@
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     $from = "sistema@dobermanprint.com.mx";
-    $to = "contacto@dobermanprint.com.mx;
+    $to = "contacto@dobermanprint.com.mx";
     $subject = "Contacto desde la Página Web";
     
     $message = "
