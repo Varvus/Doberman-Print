@@ -56,32 +56,32 @@
 
             <div class="row">
               <div class="col-12 col-md-7 m-0 p-0">
-                <form style="background-color:#eee;" class="p-4">
+                <form style="background-color:#eee;" class="p-4" method="post" action="sendmail.php">
                   <h5><b>Escríbenos</b></h5>
                   <div class="row">
                     <div class="col-12 col-md-6">
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="wk_nombre" aria-describedby="emailHelp" required>
                       </div>
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                        <label for="correo" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="correo" name="wk_correo" placeholder="nombre@ejemplo.com" required>
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Teléfono</label>
-                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                        <div id="emailHelp" class="form-text">No compartimos tus datos con nadie.</div>
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="number" class="form-control" id="telefono" name="wk_telefono" aria-describedby="telefono" required>
+                        <div id="telefono ayuda" class="form-text">No compartimos tus datos con nadie.</div>
                       </div>
                     </div>
                     <div class="col-12 col-md-6">
                       <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                        <textarea class="form-control" style="height: 210px;" id="exampleFormControlTextarea1" required></textarea>
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" style="height: 210px;" name="wk_mensaje" id="mensaje" required></textarea>
                       </div>
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Enviar&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
+                  <button type="submit" class="btn btn-primary" name="boton">Enviar&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
                   
                 </form>
               </div>
