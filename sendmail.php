@@ -13,11 +13,11 @@
 
                 <body>
 
-                    <table width='100%' cellspacing=1>
+                    <table width='100%' cellspacing=1 cellpading=2 border=1>
                         <tr bgcolor='black'>
-                            <th><center>Nombre</th>
-                            <th><center>Correo</center></th>
-                            <th><center>Teléfono</th>
+                            <th><center><font color='white'>Nombre</th>
+                            <th><center><font color='white'>Correo</center></th>
+                            <th><center><font color='white'>Teléfono</th>
                         </tr>
                         <tr bgcolor='#eee'>
                             <td>" . $_POST["wk_nombre"] . "</td>
@@ -25,7 +25,7 @@
                             <td>" . $_POST["wk_telefono"] . "</td>
                         </tr>
                         <tr bgcolor='black'>
-                            <th colspan=4>Mensaje</th>
+                            <th colspan=4><font color='white'>Mensaje</th>
                         </tr>
                         <tr>
                             <td colspan=4>" . $_POST["wk_mensaje"] . "</td>
