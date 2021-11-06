@@ -16,7 +16,7 @@
                     <table>
                         <tr>
                             <th>Nombre</th>
-                            <th>Correo</th>
+                            <th><center>Correo</center></th>
                             <th>Teléfono</th>
                         </tr>
                         <tr>
