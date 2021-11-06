@@ -9,40 +9,15 @@
                 <html>
                 <head>
                 <title>HTML email</title>
-
-                #customers {
-                    font-family: Arial, Helvetica, sans-serif;
-                    border-collapse: collapse;
-                    width: 100%;
-                  }
-                  
-                  #customers td, #customers th {
-                    border: 1px solid #ddd;
-                    padding: 8px;
-                  }
-                  
-                  #customers tr:nth-child(even){background-color: #black;}
-                  
-                  #customers tr:hover {background-color: #ddd;}
-                  
-                  #customers th {
-                    padding-top: 12px;
-                    padding-bottom: 12px;
-                    text-align: left;
-                    background-color: #04AA6D;
-                    color: white;
-                  }
-                  </style>
-
                 </head>
 
                 <body>
 
-                    <table id='customers' width='100%' cellspacing=1>
+                    <table width='100%' cellspacing=1 cellpading=2 border=1>
                         <tr bgcolor='black'>
-                            <th><center>Nombre</th>
-                            <th><center>Correo</center></th>
-                            <th><center>Teléfono</th>
+                            <th><center><font color='white'>Nombre</th>
+                            <th><center><font color='white'>Correo</center></th>
+                            <th><center><font color='white'>Teléfono</th>
                         </tr>
                         <tr bgcolor='#eee'>
                             <td>" . $_POST["wk_nombre"] . "</td>
@@ -50,7 +25,7 @@
                             <td>" . $_POST["wk_telefono"] . "</td>
                         </tr>
                         <tr bgcolor='black'>
-                            <th colspan=4>Mensaje</th>
+                            <th colspan=4><font color='white'>Mensaje</th>
                         </tr>
                         <tr>
                             <td colspan=4>" . $_POST["wk_mensaje"] . "</td>
