@@ -14,7 +14,7 @@
                 <body>
 
                     <table width='100%' cellspacing=1>
-                        <tr bgcolor="black">
+                        <tr bgcolor='black'>
                             <th><center>Nombre</th>
                             <th><center>Correo</center></th>
                             <th><center>Teléfono</th>
