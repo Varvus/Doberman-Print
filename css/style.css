@@ -44,3 +44,12 @@ a.contacto {
     color:lightgray!important;
     text-decoration: none!important; 
 }
+
+footer a {
+    text-decoration:none;
+    color:#01AEEE;
+    transition:all .8s ease;
+}
+footer a:hover {
+    color:white;
+}
