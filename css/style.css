@@ -41,14 +41,18 @@ body {
 }
 
 a.contacto {
-    color:lightgray!important;
+    color:white!important;
     text-decoration: none!important; 
+    transition:all .6s ease;
+}
+a.contacto:hover {
+    color:#D0C604!important;
 }
 
 footer a {
     text-decoration:none;
     color:#01AEEE;
-    transition:all .8s ease;
+    transition:all .6s ease;
 }
 footer a:hover {
     color:white;
