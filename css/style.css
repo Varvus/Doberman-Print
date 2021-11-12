@@ -1,5 +1,5 @@
 body {
-    font-family: 'Zen Antique', serif;    
+    font-family: 'Zen Antique', serif!important;    
     /*font-family: 'Caveat', cursive !important;*/
 }
 
@@ -15,7 +15,7 @@ body {
     background-position:center;
     background-repeat:no-repeat;
     overflow:hidden;
-    height:calc(100vh - 56px) ;
+    height:calc(100vh - 56px ) ;
 }
 
 .inicio-logo {
@@ -40,6 +40,20 @@ body {
     color:lightgray;
 }
 
+/*NOSOTROS*/
+#nosotros {
+    background-color:#C10474;
+    color:white;
+}
+#nosotros h2 {
+    color:black;
+}
+#nosotros h5 {
+    opacity:.8;
+    color:black;
+}
+
+/*CONTACTO*/
 a.contacto {
     color:white!important;
     text-decoration: none!important; 
