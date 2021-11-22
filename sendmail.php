@@ -18,11 +18,13 @@
                             <th><center><font color='white'>Nombre</th>
                             <th><center><font color='white'>Correo</center></th>
                             <th><center><font color='white'>Teléfono</th>
+                            <th><center><font color='white'>Asunto</th>
                         </tr>
                         <tr bgcolor='#eee'>
                             <td>" . $_POST["wk_nombre"] . "</td>
                             <td>" . $_POST["wk_correo"] . "</td>
                             <td>" . $_POST["wk_telefono"] . "</td>
+                            <td>" . $_POST["wk_asunto"] . "</td>
                         </tr>
                         <tr bgcolor='black'>
                             <th colspan=4><font color='white'>Mensaje</th>
@@ -39,6 +41,7 @@
     if ($_POST["wk_nombre"] <> "" && 
         $_POST["wk_correo"] <> "" && 
         $_POST["wk_telefono"] <> "" && 
+        $_POST["wk_asunto"] <> "" && 
         $_POST["wk_mensaje"]){
         
             $headers = "MIME-Version: 1.0" . "\r\n";

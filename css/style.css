@@ -32,11 +32,11 @@ body {
     height:65vh;
 }
 
-.inicio-logo h1 {
+.inicio-logo h1  {
     color:white; display:none;
 }
 
-.inicio-logo h6 {
+.inicio-logo h6, .inicio-logo h4 {
     color:lightgray;
 }
 

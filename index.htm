@@ -105,6 +105,7 @@
           <div class="text-center">
             <br>
             <h2><img src="imagenes/correo-de-contacto.png" width=25> <span style="vertical-align:middle;">Contacto</span></h2>
+            <h6>¿Quiere hacer un pedido o saber más sobre nuestros productos?<br>Comuniquese Hoy!</h6>
             <br>
 
             <div class="row">
@@ -132,7 +133,14 @@
                     <div class="col-12 col-md-6">
                       <div class="mb-3">
                         <label for="telefono" class="form-label">Asunto</label>
-                        <input type="number" class="form-control" id="telefono" name="wk_telefono" aria-describedby="telefono" required>
+                        <select id="asunto" name="wk_asunto" class="form-control" aria-describedby="Asunto" required>
+                          <option value="">Seleccione...</option>
+                          <option>Ventas</option>
+                          <option>Proveedores</option>
+                          <option>Dudas y/o Sugerencias</option>
+                          <option>Quejas</option>
+                          <option>Otros</option>
+                        </select>
                       </div>
                       <div class="mb-3">
                         <label for="mensaje" class="form-label">Mensaje</label>
