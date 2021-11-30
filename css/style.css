@@ -43,6 +43,14 @@ body {
 /*NOSOTROS*/
 #nosotros {
     background-color:#C10474;
+    background-image: url('../imagenes/bg1.jpg') center no-repeat ;
+    background-image:  linear-gradient(180deg, rgba(193,4,116,.7) 0%, rgba(193,4,116,.8) 100%), url('../imagenes/bg1.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+
+    
     color:white;
 }
 #nosotros h2 {
@@ -51,6 +59,45 @@ body {
 #nosotros h5 {
     opacity:.8;
     color:black;
+}
+
+/*PROMOS*/
+#promos {
+    background-color:#D0C504;
+    background-image: url('../imagenes/bg2.jpg') center no-repeat ;
+    background-image:  linear-gradient(180deg, rgba(208,197,4,.7) 0%, rgba(208,197,4,.8) 100%), url('../imagenes/bg2.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+
+    min-height:calc(100vh);
+}
+
+/*PRECIOS*/
+#precios {
+    background-color:#048FC3;
+    background-image: url('../imagenes/bg3.jpg') center no-repeat ;
+    background-image:  linear-gradient(180deg, rgba(4,143,195,.7) 0%, rgba(4, 143, 195, 0.8) 100%), url('../imagenes/bg3.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+
+    min-height: calc(100vh);
+}
+
+/*TRAMITES*/
+#tramites {
+    background-color:white;
+    background-image: url('../imagenes/bg4.jpg') center no-repeat ;
+    background-image:  linear-gradient(180deg, rgba(255,255,255,.7) 0%, rgba(255, 255, 255, 0.8) 100%), url('../imagenes/bg4.jpg') ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+
+    min-height:calc(100vh);
 }
 
 /*CONTACTO*/
