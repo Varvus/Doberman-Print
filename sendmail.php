@@ -53,6 +53,6 @@
 ?> 
 
 <script language="javascript">
-    alert("Su mensaje ha sido enviado correctamente, estaremos comunicandonos con usted a la brevedad!");
+    alert("Hemos recibido tu mensaje, en breve recibirás una respuesta por parte de nuestro equipo.");
     window.open("index.htm", "_self");
 </script>
