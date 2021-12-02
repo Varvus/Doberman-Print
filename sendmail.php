@@ -2,7 +2,7 @@
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     $from = "sistema@dobermanprint.com.mx";
-    $to = "contacto@dobermanprint.com.mx";
+    $to = "contacto@dobermanprint.com.mx, patricia.garcia@dobermanprint.com.mx";
     $subject = "Contacto desde la Página Web";
     
     $message = "
@@ -53,5 +53,6 @@
 ?> 
 
 <script language="javascript">
+    alert("Su mensaje ha sido enviado correctamente, estaremos comunicandonos con usted a la brevedad!");
     window.open("index.htm", "_self");
 </script>
