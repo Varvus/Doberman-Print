@@ -6,6 +6,10 @@ body {
 .navbar {
     background-color: black;
 }   
+.nav-link {
+    color:white!important;
+    text-transform: uppercase;
+}
 
 .inicio-bg {
     background: rgb(71,71,71);
